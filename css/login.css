@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins';
+}
+
+.login {
+     width: 500px !important;
+     margin-top: 200px !important;
+     margin-bottom: 200px !important;
+}
+
+.login h1 {
+     font-weight: 400;
+}
+
+.form-control {
+     border-radius: unset !important;
+}
+
+.login .form-control:focus {
+     box-shadow: unset !important;
+     border: 2px solid black;
+}
+
+.btn {
+     width: 100% !important;
+     background-color: black !important;
+     color: #fff !important;
+     letter-spacing: 3px !important;
+     border-radius: unset !important;
+}
+
+.form-label {
+     margin-bottom: 0px !important;
+}
+
+.error .form-control {
+     color: #d02e2e;
+     background-color: #FFF6F6 !important;
+     border: 1px solid #d02e2e;
+}
+.login .account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login .btn-logout{
+    width: 30% !important;
+}
+.login .btn-change{
+    width: 50% !important;
+}
+/* Thêm media queries để điều chỉnh form login cho các kích thước màn hình khác nhau */
+@media screen and (max-width: 768px) {
+     .login {
+         width: 80% !important; /* Điều chỉnh chiều rộng form login khi màn hình nhỏ hơn 768px */
+         margin-top: 100px !important; /* Điều chỉnh margin-top để form login không cách xa quá nhiều */
+         margin-bottom: 100px !important; /* Điều chỉnh margin-bottom để form login không cách xa quá nhiều */
+     }
+     .login h1 {
+         font-size: 24px; /* Điều chỉnh kích thước của tiêu đề login cho màn hình nhỏ hơn */
+     }
+     .btn {
+         width: 100% !important; /* Điều chỉnh chiều rộng của button để nó hiển thị đẹp hơn */
+     }
+     .account .btn-logout {
+         width: 50% !important; /* Điều chỉnh chiều rộng của button logout */
+     }
+ }
+ @media screen and (max-width: 500px) {
+     .login {
+         width: 90% !important; /* Điều chỉnh chiều rộng form login khi màn hình nhỏ hơn 500px */
+     }
+     .login h1 {
+         font-size: 20px; /* Điều chỉnh kích thước của tiêu đề login cho màn hình nhỏ hơn */
+     }
+ }
+ 

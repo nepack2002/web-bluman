@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins';
+}
+main{
+  margin-top: 60px !important;
+}
+.container-contact{
+     width: 700px;
+     min-width: 400px;
+     margin-bottom: 100px;
+     margin: 100px auto;
+}
+.container-contact .h1{
+     font-weight: 600;
+     letter-spacing: 3px;
+}
+.form-control:focus{
+     border : 2px solid black !important;
+     box-shadow: none !important;
+}
+.btn-area {
+     display: flex !important;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 10px;
+}
+.btn-area .btn{
+     border-radius: unset !important;
+     width: 100px;
+}
+.btn-area span{
+     margin-left: 30px;
+     color: black;
+}
+
+@media screen and (max-width: 768px) {
+     .container-contact {
+          width: 90%; /* Đổi kích thước container khi màn hình có độ rộng 768px */
+          min-width: auto; /* Bỏ giá trị min-width */
+          margin: 80px auto; /* Thay đổi margin khi màn hình có độ rộng 768px */
+     }
+
+     /* Thay đổi các thuộc tính khác tương ứng với màn hình 768px */
+}

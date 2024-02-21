@@ -1,0 +1,22 @@
+  .cart-table {
+            width: 100%;
+            margin-top: 150px;
+            /* margin-bottom: 100px; */
+            color: #212529;
+        }
+
+        .cart-table th,
+        .cart-table td {
+            padding: 0.75rem;
+           text-align: center;
+        }
+
+        /* .cart-table th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .cart-table thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+        } */
